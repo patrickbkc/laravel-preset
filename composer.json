@@ -1,0 +1,23 @@
+{
+    "name": "patrickbuckley/laravel-preset",
+    "description": "My laravel preset",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Patrick Buckley",
+            "email": "patrick.buckley@ymail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Patrick\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": ["Patrick\\PatrickPresetServiceProvider"]
+        }
+    },
+    "require": {}
+}
